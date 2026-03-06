@@ -88,7 +88,17 @@ header {
     color: #ffe600;
 }
 
-
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.feature-item { max-width: 250px; }
+.feature-item span { font-size: 40px; }
+.feature-item h3 { margin: 15px 0; color: #7a4a2c; }
+.feature-item p { color: #666; font-size: 14px; }
 .vidguki {
     background-color: #a5653f;
     padding: 60px 20px;
